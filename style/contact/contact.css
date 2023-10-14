@@ -17,8 +17,8 @@ section{
     padding: 50px;
     background: rgba(31, 2, 69, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-right: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(11, 6, 18, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -34,7 +34,7 @@ section{
     left: -40%;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,0.25);
+    background: rgba(173, 164, 201, 0.25);
     pointer-events: none;
     transform: skew(-15deg);
 }
@@ -42,7 +42,7 @@ section{
 .form-container h2{
     width: 100%;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-size: 32px;
     margin-bottom: 20px;
 }
