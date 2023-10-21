@@ -16,7 +16,7 @@ body{
 a{
     text-decoration: none;
     font-size: 20px;
-    color: whitesmoke;
+    color: rgb(80, 16, 159);
 }
 
 a:hover{
@@ -29,8 +29,8 @@ a:hover{
     /* bottom top & right left */
     padding: 10px 40px;
     width: 100%;
-    background-color: #4272eb;
-    box-shadow: 0px 2px 4px rgb(156, 107, 247);
+    background-color: #ffffff;
+    /* box-shadow: 0px 2px 4px rgb(156, 107, 247); */
 }
 
 .navigation ul{
@@ -159,23 +159,25 @@ a:hover{
     right: 0;
     top: 0;
     height: 100%;
-    background: linear-gradient(to right, rgb(119, 107, 247), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(244, 244, 246), rgb(255, 255, 255));
     border-radius: 20px 0 0 20px;
     width: 80%;
     z-index: -1;
     transform: translateX(110px);
+    padding-right: 500px;
 }
 
 .see-stuff .la-eye{
     /* transform: translateX(-50px); */
     margin-bottom: 5px;
     font-size: 30px;
+    margin-left: 50px;
 }
 
 .see-stuff a{
     font-weight: 800;
     text-align: center;
-    color: black;
+    color: rgb(31, 28, 28);
     cursor: pointer;
     transition: .5s;
     border-bottom: none;
@@ -187,7 +189,7 @@ a:hover{
 
 .see-stuff a:hover{
     transition: .5s;
-    color: white;
+    color: rgb(35, 18, 227);
 }
 
 /* ============================================= */
@@ -209,9 +211,9 @@ a:hover{
 
     .navigation .mobile-list{
         z-index: 10000;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
         display: block;
-        color: #2348A7;
+        color: #060607;
         position: fixed;
         bottom: 0;
         left: 0;
@@ -231,7 +233,7 @@ a:hover{
     }
 
     .row{
-        /* min-height: 100vh; */
+        min-height: 10vh;
         /* flex-direction: column-reverse; */
         margin-bottom:100px;
     }
@@ -251,6 +253,7 @@ a:hover{
 
     .col-1 h2{
         font-size: 35px;
+        margin-right: 50px;
     }
 
     .col-1 h3{
@@ -271,7 +274,14 @@ a:hover{
     }
 
     .see-stuff:hover{
-        color: black;
+        color: rgb(78, 3, 240);
+    }
+
+    .see-stuff .la-eye{
+        /* transform: translateX(-50px); */
+        margin-bottom: 5px;
+        font-size: 30px;
+        margin-left: 2px;
     }
 }
 

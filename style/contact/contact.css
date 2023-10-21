@@ -15,18 +15,18 @@ section{
     width: 100%;
     max-width: 1000px;
     padding: 50px;
-    background: rgba(31, 2, 69, 0.1);
+    background: rgba(248, 248, 248, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.25);
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(11, 6, 18, 0.1);
+    border-right: 1px solid rgba(55, 10, 140, 0.1);
+    border-bottom: 1px solid rgba(107, 32, 213, 0.1);
     border-radius: 10px;
     overflow: hidden;
     backdrop-filter: bluer(25px);
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.947);
 }
 
-.form-container::before{
+/* .form-container::before{
     
     content: '';
     position: absolute;
@@ -34,15 +34,15 @@ section{
     left: -40%;
     width: 100%;
     height: 100%;
-    background: rgba(173, 164, 201, 0.25);
+    background: rgba(255, 255, 255, 0.968);
     pointer-events: none;
     transform: skew(-15deg);
-}
+} */
 
 .form-container h2{
     width: 100%;
     text-align: center;
-    color: rgb(245, 245, 245);
+    color: rgb(121, 116, 248);
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -67,7 +67,7 @@ section{
     position: relative;
     width: 100%;
     height: 40px;
-    color: whitesmoke;
+    color: rgb(132, 135, 245);
 }
 
 .form-container .row100 .col .inputBox input,
@@ -82,7 +82,7 @@ section{
     font-size: 15px;
     padding: 0 10px;
     z-index: 1;
-    color: black;
+    color: rgb(66, 48, 48);
 }
 
 .form-container .row100 .col .inputBox .text{
@@ -156,6 +156,7 @@ button{
     font-size: 18px;
     border-radius: 10px;
     margin-left: 10px;
+    color: rgb(139, 139, 242);
 }
 
 @media only screen and (max-width:416px){
