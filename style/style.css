@@ -30,7 +30,7 @@ a:hover{
     padding: 10px 40px;
     width: 100%;
     background-color: #ffffff;
-    /* box-shadow: 0px 2px 4px rgb(156, 107, 247); */
+    box-shadow: 0px 2px 4px rgb(156, 107, 247);
 }
 
 .navigation ul{
@@ -64,7 +64,7 @@ a:hover{
     margin: 50px 0;
     padding: 0 8%;
     overflow-x: hidden;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 /* .col-1 */
@@ -237,6 +237,15 @@ a:hover{
         /* flex-direction: column-reverse; */
         margin-bottom:100px;
     }
+
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
+    }
 }
 
 @media only screen and (max-width:700px){
@@ -261,7 +270,7 @@ a:hover{
     }
 
     .col-1 p{
-        font-size: 16px;
+        font-size: 16px;    
     }
     
     .col-2{
@@ -284,6 +293,16 @@ a:hover{
         font-size: 30px;
         margin-left: 2px;
     }
+
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
+    }
+    
 }
 
 @media only screen and (max-width:670px) {
@@ -292,6 +311,15 @@ a:hover{
         /* flex-direction: column-reverse; */
         margin-bottom: 100px;
     }
+
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
+    }
 }
 
 
@@ -299,11 +327,29 @@ a:hover{
     .navigation .mobile-list li a{
         font-size: 10px;
     }
+    
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
+    }
 }
 
 @media only screen and (max-width:526px) {
     .navigation .mobile-list li a{
         font-size: 10px;
+    }
+
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
     }
 }
 
@@ -311,10 +357,28 @@ a:hover{
     .navigation .mobile-list li a{
         font-size: 10px;
     }
+
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
+    }
 }
 
 @media only screen and (max-width:410px) {
     .navigation .mobile-list li a{
         font-size: 10px;
+    }
+
+    .containericon{
+        width: 40px;
+    /* background-color: aliceblue; */
+    
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
     }
 }
