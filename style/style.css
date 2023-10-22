@@ -270,13 +270,14 @@ a:hover{
     }
 
     .col-1 p{
-        font-size: 16px;    
+        font-size: 10px;
+        margin-left: 10px;    
     }
     
     .col-2{
         margin-bottom: 50px;
         flex-basis: 100%;
-        margin-left: 50px;
+        margin-left: 10px;
     }
 
     .col-2 .index-img-jumbo{
@@ -291,7 +292,8 @@ a:hover{
         /* transform: translateX(-50px); */
         margin-bottom: 5px;
         font-size: 30px;
-        margin-left: 2px;
+        margin-left: 1px;
+        /* display: flex; */
     }
 
     .containericon{
