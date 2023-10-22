@@ -148,6 +148,16 @@ a:hover{
     flex-basis: 60%;
     display: flex;
     align-items: center;
+    padding-right: 90px;
+}
+
+.col-2 p{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 90px;
 }
 
 .col-2 .index-img-jumbo{
@@ -277,7 +287,7 @@ a:hover{
     .col-2{
         margin-bottom: 50px;
         flex-basis: 100%;
-        margin-left: 10px;
+        margin-left: 50px;
     }
 
     .col-2 .index-img-jumbo{
