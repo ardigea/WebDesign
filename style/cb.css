@@ -94,3 +94,79 @@
     border-radius: 10px 10px 3px 10px;
 }
 
+/* Styles untuk perangkat dengan lebar layar kurang dari atau sama dengan 768px (tablet) */
+
+@media (max-width: 768px) {
+    .containerCB {
+        width: 100%;
+        height: auto;
+        position: static;
+        box-shadow: none;
+    }
+
+    .containericon {
+        width: 100%;
+        position: static;
+    }
+
+    .chat-header {
+        /* Sesuaikan gaya untuk header di tablet */
+    }
+
+    .chat-header .title {
+        /* Sesuaikan gaya untuk judul di tablet */
+    }
+
+    .chat-body {
+        height: auto;
+        /* Tambahkan gaya lain yang sesuai untuk tampilan tablet di sini */
+    }
+
+    .chat-input {
+        /* Tambahkan gaya lain yang sesuai untuk input di tablet */
+    }
+
+    #textinput {
+        /* Tambahkan gaya lain yang sesuai untuk input teks di tablet */
+    }
+
+    .chatbot-message, .user-message {
+        /* Tambahkan gaya lain yang sesuai untuk pesan di tablet */
+    }
+}
+
+/* Styles untuk perangkat dengan lebar layar kurang dari atau sama dengan 480px (mobile) */
+
+@media (max-width: 480px) {
+    .containerCB {
+        /* Sesuaikan gaya untuk container di mobile */
+    }
+
+    .containericon {
+        /* Sesuaikan gaya untuk container ikon di mobile */
+    }
+
+    .chat-header {
+        /* Sesuaikan gaya untuk header di mobile */
+    }
+
+    .chat-header .title {
+        /* Sesuaikan gaya untuk judul di mobile */
+    }
+
+    .chat-body {
+        /* Sesuaikan gaya untuk body di mobile */
+    }
+
+    .chat-input {
+        /* Tambahkan gaya lain yang sesuai untuk input di mobile */
+    }
+
+    #textinput {
+        /* Tambahkan gaya lain yang sesuai untuk input teks di mobile */
+    }
+
+    .chatbot-message, .user-message {
+        /* Tambahkan gaya lain yang sesuai untuk pesan di mobile */
+    }
+}
